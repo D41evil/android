@@ -1,0 +1,41 @@
+@startuml
+
+class items_category
+{
+  int id
+  String name
+}
+class room
+{
+  int id
+  decimal square
+  String function
+}
+class item
+{
+  int id
+  int id_category
+  int id_room
+}
+class person
+{
+  int id
+  String login
+  String pass
+  bool enter
+}
+class error
+{
+  int id
+  int id_person
+  int id_item
+  String photo
+  String comment
+}
+
+items_category "1" --o "n" item
+room "1" --o "n" item
+person "1" -- "1" error
+item "1" -- "1" error
+
+@enduml
