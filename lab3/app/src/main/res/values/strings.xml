@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Test</string>
+
+    <string name="login">Введите имя пользователя</string>
+    <string name="password">Введите пароль</string>
+    <string name="enterButton">Войти</string>
+    <string name="enterId">Введите код</string>
+    <string name="choicePhoto">Выберите фото</string>
+    <string name="choice">...</string>
+    <string name="comment">Описание дефекта</string>
+    <string name="spend">Отправить</string>
+
+</resources>
